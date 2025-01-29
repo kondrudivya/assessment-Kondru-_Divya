@@ -12,16 +12,12 @@ table,
 td,
 p,
 div,
-img,
-a {
+
+ {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-img {
-  @apply max-w-full leading-none align-middle;
-  border: 0;
+  background-color: #f0f5f5;
 }
 
 a {
@@ -42,5 +38,4 @@ sup {
   vertical-align: 5px;
   line-height: 0;
 }
-
 
